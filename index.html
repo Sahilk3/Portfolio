@@ -13,42 +13,43 @@
   </head>
   <body>
 
-        <nav class="navbar navbar-expand-lg sticky-top bg-transparent m-3 px-5" data-bs-theme="dark">
-            <div class="container-fluid">
-              <a class="navbar-brand fs-4 fw-bold ls-5" href="index.html" data-aos="fade-right" data-aos-duration="1000">SAHIL</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse container" id="navbarSupportedContent">
-                <div class="container d-flex ">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html" data-aos="fade-left" data-aos-duration="1500">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#projects" data-aos="fade-left" data-aos-duration="1300">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#skills" data-aos="fade-left" data-aos-duration="1100">Skills</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#education" data-aos="fade-left" data-aos-duration="900">Education</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact" data-aos="fade-left" data-aos-duration="700">Contact</a>
-                  </li>
-                </ul>
-              </div>
-                <!-- <button class="btn btn-sm btn-outline-primary rounded-0" >Resume</button> -->
-              </div>
-            </div>
-          </nav>
+<div class="m-3 px-5">
+  <a class="navbar-brand fs-4 fw-bold ls-5 text-white-50" href="index.html" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300">SAHIL</a>
+</div>
+
+<!------------ navbar ------------>
+<header class="fixed-top">
+ <nav class="nav nav-pills mt-3 position-relative opacity-75 " data-aos="zoom-in" data-aos-duration="2000">
+    <ul class="nav bg-black bg-gradient rounded-4 ms-auto" >
+        <li class="nav-item "  >
+            <button type="button" class="nav-link active rounded-4" data-bs-toggle="pill" aria-current="page"  onClick="location.href='#home'"><i class="bi bi-house"></i><span class="collapse multi-collapse  collapse-horizontal" id="collapseHome"> Home</span></button>
+        </li>
+        <li class="nav-item " >
+            <button type="button" class="nav-link rounded-4" data-bs-toggle="pill" onClick="location.href='#projects'"><i class="bi bi-pencil-square"></i><span class="collapse multi-collapse collapse-horizontal" id="collapseProjects"> Projects</span></button>
+        </li>
+        <li class="nav-item " >
+            <button type="button" class="nav-link rounded-4" data-bs-toggle="pill" onClick="location.href='#skills'"><i class="bi bi-code-slash"></i><span class="collapse multi-collapse collapse-horizontal" id="collapseSkills"> Skills</span></button>
+        </li>
+        <li class="nav-item " >
+            <button type="button" class="nav-link rounded-4" data-bs-toggle="pill" onClick="location.href='#education'"><i class="bi bi-vector-pen"></i><span class="collapse multi-collapse collapse-horizontal" id="collapseEducation"> Education</span></button>
+        </li>
+        <li class="nav-item " >
+            <button type="button" class="nav-link rounded-4" data-bs-toggle="pill" onClick="location.href='#contact'"><i class="bi bi-card-text"></i><span class="collapse multi-collapse collapse-horizontal" id="collapseContact"> Contact</span></button>
+        </li>
+    </ul>
+    <ul class="nav me-auto">
+        <li class="nav-item bg-opacity-10" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="collapseHome collapseProjects collapseSkills collapseEducation collapseContact" >
+            <button type="button" class="nav-link rounded-4"><i class="bi bi-arrow-left-right"></i></button>
+        </li>
+    </ul>
+    </nav>
+</header>
 
     <!-- hero section -->
     <div id="home" class="container pb-5 mb-5">
         <div class="text-center text-white-50">
           <div class=" mt-4 ">
-            <img src="img/about-img.jpg" class="dp rounded-circle img-thumbnail opacity-75 " alt="photographer img"  data-aos="zoom-in-up"
+            <img src="img/about-img.jpg" class="dp rounded-circle img-thumbnail opacity-75 " alt="Sahil-img"  data-aos="zoom-in-up"
             data-aos-duration="1900">
           </div>
           <h1 class="htext text-white my-4" data-aos="zoom-in-down" data-aos-duration="2000">Hi, I'm <span class="htext text-warning-emphasis typer" id="main" data-words="Sahil Kumar,Web Developer,Programmer" data-delay="100" data-deleteDelay="1000">Sahil Kumar</span><span class="cursor" data-owner="main"></span></h1>
@@ -76,7 +77,7 @@
         <!-- Notes_app -->
         <div class="container d-lg-flex flex-row my-5">
           <div class="container m-2" data-aos="fade-right" data-aos-duration="1500">
-            <img src="img\Notes_app.JPG" class="img-thumbnail img-fluid rounded-4" alt="Notes app">
+            <img src="img\Notes_app.JPG" class="img-thumbnail img-fluid rounded-4" alt="NotesApp-img">
           </div>
           <div class="container py-2 px-4 m-2">
             <h3 class="" data-aos="fade-left" data-aos-duration="1500">Notes app </h3>
@@ -99,7 +100,7 @@
         <!-- portfolio -->
         <div class="container d-lg-flex flex-row my-5">
           <div class="container" data-aos="fade-right" data-aos-duration="1500">
-            <img src="img\portfolio.JPG" class="img-thumbnail img-fluid rounded-4" alt="Notes app">
+            <img src="img\portfolio.JPG" class="img-thumbnail img-fluid rounded-4" alt="Portfolio-img">
           </div>
           <div class="container py-2 px-4 m-2">
             <h3  data-aos="fade-left" data-aos-duration="1500">Portfolio Website. </h3>
@@ -277,9 +278,9 @@
             </div>
         
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex fs-2 ">
-              <li class="ms-3" data-aos="fade-left" data-aos-duration="1000"><a class="" href="https://github.com/Sahilk3"><i class="bi bi-github"></i></a></li>
-              <li class="ms-3" data-aos="fade-left" data-aos-duration="1500"><a class="" href="https://www.linkedin.com/in/sahil-kumar-218548214"><i class="bi bi-linkedin"></i></a></li>
-              <li class="ms-3" data-aos="fade-left" data-aos-duration="2000"><a class="" href="mailto:skmehra8697@gmail.com"><i class="bi bi-envelope-fill"></i></a></li>
+              <li class="ms-3" ><a href="https://github.com/Sahilk3"><i class="bi bi-github"></i></a></li>
+              <li class="ms-3" ><a href="https://www.linkedin.com/in/sahil-kumar-218548214"><i class="bi bi-linkedin"></i></a></li>
+              <li class="ms-3" ><a href="mailto:skmehra8697@gmail.com"><i class="bi bi-envelope-fill"></i></a></li>
             </ul>
             
           </div>
