@@ -20,23 +20,33 @@ To use the portfolio website, simply open the `index.html` file in your web brow
 
 This section includes a brief introduction about myself, my interests, and my career goals.
 
+![Home](screenshots/home.JPG)
+
 ### Projects
 
 This section includes a list of my projects, along with descriptions and links to view them.
+
+![Projects](screenshots/projects.JPG)
 
 ### Skills
 
 This section includes a list of my technical skills.
 
+![Skills](screenshots/skills.JPG)
+
 ### Education
 
 This section includes information about my educational background, including my degree and any relevant coursework.
+
+![Education](screenshots/education.JPG)
 
 ### Contact Me
 
 This section includes links to my social profiles on LinkedIn and GitHub.
 
 Also includes a contact form that can be used to send me an email.
+
+![Contact Me](screenshots/contact_me.JPG)
 
 ## Live Demo
 
